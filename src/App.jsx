@@ -13,6 +13,7 @@ function Home() {
 function App() {
   return (
     <div>
+      <h1>Netlify</h1>
       <nav>
         {/*NavLinkin bize sunduğu nesne sayesinde isActive kullanıp aktif olduğu durumlara göre bir stil verdik */}
         <NavLink style={({isActive}) => ({ 
